@@ -7,13 +7,13 @@ public class Kuis1 {
         double angka1, angka2, hasil;
 
         do {
-            System.out.println("=== Kalkulator Sederhana ===");
+            System.out.println("===Kalkulator Sederhana===");
             System.out.println("1. Tambah");
             System.out.println("2. Kurang");
             System.out.println("3. Kali");
             System.out.println("4. Bagi");
             System.out.println("5. Keluar");
-            System.out.print("Pilih operasi (1-5): ");
+            System.out.print("Pilih Operasi (1-5): ");
             pilihan = input.nextInt();
 
             if (pilihan >= 1 && pilihan <= 4) {
